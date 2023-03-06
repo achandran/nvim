@@ -6,6 +6,7 @@ return {
       servers = {
         pyright = {},
         rust_analyzer = {},
+        bashls = {},
       },
     },
   },
