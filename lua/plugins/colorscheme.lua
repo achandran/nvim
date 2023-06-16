@@ -5,7 +5,6 @@ return {
     priority = 1000,
     name = "gruvbox-material",
     config = function()
-      vim.g.gruvbox_material_palette = "original"
       vim.g.gruvbox_material_background = "soft"
     end,
   },
