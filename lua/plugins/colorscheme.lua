@@ -1,17 +1,14 @@
 return {
   {
-    "sainnhe/gruvbox-material",
+    "sainnhe/everforest",
     lazy = true,
     priority = 1000,
-    name = "gruvbox-material",
-    config = function()
-      vim.g.gruvbox_material_background = "soft"
-    end,
+    name = "everforest",
   },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "gruvbox-material",
+      colorscheme = "everforest",
     },
   },
 }
