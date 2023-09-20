@@ -1,14 +1,14 @@
 return {
   {
-    "sainnhe/everforest",
+    "EdenEast/nightfox.nvim",
     lazy = true,
     priority = 1000,
-    name = "everforest",
+    name = "nightfox",
   },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "everforest",
+      colorscheme = "dayfox",
     },
   },
 }
