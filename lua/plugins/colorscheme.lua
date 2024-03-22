@@ -1,14 +1,14 @@
 return {
-  {
-    "EdenEast/nightfox.nvim",
-    lazy = true,
-    priority = 1000,
-    name = "nightfox",
-  },
+  -- {
+  --   "rebelot/kanagawa.nvim",
+  --   lazy = true,
+  --   priority = 1000,
+  --   name = "kanagawa",
+  -- },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "dayfox",
+      colorscheme = "catppuccin-frappe",
     },
   },
 }

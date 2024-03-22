@@ -11,6 +11,8 @@ end
 -- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
 -- Add any additional keymaps here
 vim.keymap.set({ "i", "v" }, "jk", "<ESC>", { silent = true }) -- Escape from insert mode
+vim.keymap.set("n", "<C-d>", "<C-d>zz") -- Move down half page and re-center
+vim.keymap.set("n", "<C-u>", "<C-u>zz") -- Move up half page and re-center
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv") -- Move visual selection downward
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv") -- Move visual selection upward
 vim.keymap.set("n", "J", "mzJ`z") -- Join line with the next, adding a space between and keeping the cursor in place

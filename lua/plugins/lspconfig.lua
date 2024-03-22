@@ -1,10 +1,11 @@
 return {
-  -- Configure LazyVim to load catppuccin-frappe
   {
     "neovim/nvim-lspconfig",
     opts = {
       servers = {
         pyright = {},
+        ruff_lsp = {},
+        gopls = {},
         rust_analyzer = {},
         bashls = {},
       },
