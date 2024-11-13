@@ -1,14 +1,14 @@
 return {
-  -- {
-  --   "rebelot/kanagawa.nvim",
-  --   lazy = true,
-  --   priority = 1000,
-  --   name = "kanagawa",
-  -- },
+  {
+    "sainnhe/gruvbox-material",
+    lazy = true,
+    priority = 1000,
+    name = "gruvbox-material",
+  },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "catppuccin-frappe",
+      colorscheme = "gruvbox-material",
     },
   },
 }
