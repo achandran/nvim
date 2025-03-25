@@ -6,7 +6,7 @@ return {
       sections = {
         lualine_z = {
           function()
-            return " " .. os.date("%I:%M %p")
+            return "  " .. os.date("%I:%M %p")
           end,
         },
       },
