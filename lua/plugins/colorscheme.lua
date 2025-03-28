@@ -1,8 +1,11 @@
 return {
   {
+    "sainnhe/everforest",
+  },
+  {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "catppuccin-frappe",
+      colorscheme = "everforest",
     },
   },
 }
