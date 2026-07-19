@@ -1,8 +1,10 @@
 return {
-  -- Configure LazyVim to load catppuccin-frappe
   {
     "nvim-lualine/lualine.nvim",
     opts = {
+      options = {
+        theme = "jellybeans-nvim",
+      },
       sections = {
         lualine_z = {
           function()
